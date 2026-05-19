@@ -89,7 +89,7 @@ This creates demo products and accounts:
    |-------|--------|
    | Root Directory | `backend` |
    | Runtime | Node |
-   | Build Command | `npm install && npm run build` |
+   | Build Command | `npm install --include=dev && npm run build` |
    | Start Command | `npm start` |
    | Health Check Path | `/api/health` |
 
