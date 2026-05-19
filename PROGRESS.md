@@ -89,10 +89,19 @@
 - [x] Wishlist UI: `/account/wishlist`, heart on product cards & detail
 - [x] API tests for wishlist (6 tests)
 
-## Next steps (pick up here)
+## Completed (Session 9 — production deploy)
 
-- [ ] **Production deploy:** Follow **[DEPLOY.md](./DEPLOY.md)** — GitHub → Atlas → Render → Vercel
-- [ ] Update README live demo + GitHub URLs after deploy
+- [x] GitHub: [vishwanathreddu/shopverse-26](https://github.com/vishwanathreddu/shopverse-26)
+- [x] MongoDB Atlas + seed
+- [x] Render API: `https://shopverse-26-api.onrender.com`
+- [x] Vercel frontend: [https://shopverse-26.vercel.app](https://shopverse-26.vercel.app)
+- [x] README updated with live links
+
+## Next steps (optional)
+
+- [ ] Rotate MongoDB password (was shared in chat during setup)
+- [ ] Add Resend for production order emails
+- [ ] Custom domain on Vercel
 
 ## Default credentials (after seed)
 

@@ -2,10 +2,12 @@
 
 A full-stack e-commerce platform built for portfolio and resume use. TypeScript end-to-end, JWT auth, Stripe checkout, admin dashboard, and a polished React storefront.
 
-**Live demo:** _Add your Vercel URL after deploy_  
-**GitHub:** _Add your repo URL after push_
+**Live demo:** [shopverse-26.vercel.app](https://shopverse-26.vercel.app)  
+**API:** [shopverse-26-api.onrender.com/api/health](https://shopverse-26-api.onrender.com/api/health)  
+**GitHub:** [vishwanathreddu/shopverse-26](https://github.com/vishwanathreddu/shopverse-26)
 
-> **Deploy to production:** See **[DEPLOY.md](./DEPLOY.md)** for Atlas + Render + Vercel (free tier, ~30 min).
+> Deployed on **Vercel** (frontend) + **Render** (API) + **MongoDB Atlas** (database).  
+> Setup guide: **[DEPLOY.md](./DEPLOY.md)** · Quick start: **[START-HERE.md](./START-HERE.md)**
 
 > **Continuing in a new chat?** Open `PROGRESS.md` first — it lists what's done and what's next.
 
