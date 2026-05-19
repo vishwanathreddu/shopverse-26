@@ -1,0 +1,14 @@
+services:
+  mongodb:
+    image: mongo:7
+    container_name: shopverse-mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - shopverse_mongo_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: shopverse
+
+volumes:
+  shopverse_mongo_data:

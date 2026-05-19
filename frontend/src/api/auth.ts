@@ -1,0 +1,28 @@
+import { api } from './client';
+import type { User } from '@/types';
+
+export async function login(email: string, password: string) {
+  const { data } = await api.post<{ user: User; accessToken: string }>('/auth/login', {
+    email,
+    password,
+  });
+  return data;
+}
+
+export async function register(name: string, email: string, password: string) {
+  const { data } = await api.post<{ user: User; accessToken: string }>('/auth/register', {
+    name,
+    email,
+    password,
+  });
+  return data;
+}
+
+export async function getProfile() {
+  const { data } = await api.get<{ user: User }>('/auth/me');
+  return data.user;
+}
+
+export async function logoutApi() {
+  await api.post('/auth/logout');
+}
